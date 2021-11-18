@@ -1,6 +1,6 @@
 {
-    "name": "domicilios_sv",
-    "short_name": "domicilios_sv",
+    "name": "parcial",
+    "short_name": "parcial",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
