@@ -4,7 +4,7 @@ import 'package:json_annotation/json_annotation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 part 'locations.g.dart';
-  
+
 @JsonSerializable()
 class LatLng {
   LatLng({
@@ -79,7 +79,7 @@ class Locations {
 }
 
 Future<Locations> getGoogleOffices() async {
-    // Fallback for when the above HTTP request fails.
+  // Fallback for when the above HTTP request fails.
   return Locations.fromJson(
     json.decode(
       await rootBundle.loadString('assets/locations.json'),
