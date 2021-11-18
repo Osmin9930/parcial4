@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('MovilSV'),
-          backgroundColor: Colors.deepOrange,
+          backgroundColor: Colors.deepPurple,
         ),
         body: GoogleMap(
           onMapCreated: _onMapCreated,
